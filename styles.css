@@ -13,15 +13,34 @@ html, body{
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
 
+.flex{
+    display: flex;
+    height: 100%;
+}
+
 .sidebar{
     /* pxالعرض هنا يجب ان يكون 120 */
+    width: 25vh;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    height: 100vh;
+    padding: 2px;
+
 }
 
 .header{
     /* pxالطول هنا يجب ان يكون 80 */
+    height: 10vh;
+    background-color: blue;
+    border-radius: 8px;
+    width: 100vw;
 }
 
 .main{
+    height: 90vh;
+    background-color: cyan;
+    border-radius: 8px;
 
 }
 
@@ -44,5 +63,11 @@ h1{
 h2{
     margin: 0;
     margin-left: 5px;
+}
+
+.footer{
+    text-align: center;
+    background-color: white;
+    color: black;
 }
 
